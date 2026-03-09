@@ -1,0 +1,106 @@
+﻿{
+  "wakeup": [
+    {
+      "title": "ঘুম থেকে ওঠার দোয়া",
+      "arabic": "اَلْحَمْدُ لِلّٰهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+      "transliteration": "Alhamdu lillaahil-lathee ahyaanaa ba'da maa amaatanaa wa ilayhin-nushoor.",
+      "translation": "All praise is for Allah who gave us life after causing us to die, and to Him is the resurrection.",
+      "translation_bn": "সব প্রশংসা আল্লাহর, যিনি আমাদের মৃত্যুর পর পুনরায় জীবন দান করেছেন এবং তাঁর কাছেই পুনরুত্থান।"
+    }
+  ],
+  "out": [
+    {
+      "title": "বাড়ি থেকে বের হওয়ার দোয়া",
+      "arabic": "بِسْمِ اللّٰهِ تَوَكَّلْتُ عَلَى اللّٰهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ",
+      "transliteration": "Bismillaahi tawakkaltu 'alallaah, laa hawla wa laa quwwata illaa billaah.",
+      "translation": "In the name of Allah, I place my trust in Allah. There is no power and no might except with Allah.",
+      "translation_bn": "আল্লাহর নামে (বের হচ্ছি), আমি আল্লাহর উপর ভরসা করলাম। আল্লাহর সাহায্য ছাড়া কোনো শক্তি ও সামর্থ্য নেই।"
+    }
+  ],
+  "enter_home": [
+    {
+      "title": "বাড়িতে প্রবেশের দোয়া",
+      "arabic": "بِسْمِ اللّٰهِ وَلَجْنَا وَبِسْمِ اللّٰهِ خَرَجْنَا وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+      "transliteration": "Bismillaahi walajnaa wa bismillaahi kharajnaa wa 'alaa rabbinaa tawakkalnaa.",
+      "translation": "In the name of Allah we enter, in the name of Allah we leave, and upon our Lord we place our trust.",
+      "translation_bn": "আল্লাহর নামে আমরা প্রবেশ করি, আল্লাহর নামেই আমরা বের হই, এবং আমাদের প্রতিপালকের উপরই আমরা ভরসা করি।"
+    }
+  ],
+  "before_sleep": [
+    {
+      "title": "ঘুমানোর আগে দোয়া",
+      "arabic": "بِاسْمِكَ اللّٰهُمَّ أَمُوتُ وَأَحْيَا",
+      "transliteration": "Bismika Allahumma amootu wa ahyaa.",
+      "translation": "O Allah, in Your name I die and I live.",
+      "translation_bn": "হে আল্লাহ, আপনার নামেই আমি মরি এবং বাঁচি।"
+    }
+  ],
+  "before_eating": [
+    {
+      "title": "খাবার শুরু করার দোয়া",
+      "arabic": "بِسْمِ اللّٰهِ",
+      "transliteration": "Bismillah.",
+      "translation": "In the name of Allah.",
+      "translation_bn": "আল্লাহর নামে।"
+    }
+  ],
+  "after_eating": [
+    {
+      "title": "খাবার শেষে দোয়া",
+      "arabic": "الْحَمْدُ لِلّٰهِ الَّذِي أَطْعَمَنِي هَذَا وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+      "transliteration": "Alhamdu lillaahil-lathee at'amanee haadhaa wa razaqaneehi min ghayri hawlin minnee wa laa quwwah.",
+      "translation": "Praise be to Allah who fed me this and provided it for me without any might or power from myself.",
+      "translation_bn": "সব প্রশংসা আল্লাহর, যিনি আমাকে এ খাবার খাওয়ালেন ও দান করলেন; আমার নিজের কোনো শক্তি বা ক্ষমতা ছিল না।"
+    }
+  ],
+  "travel": [
+    {
+      "title": "ভ্রমণের দোয়া",
+      "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ",
+      "transliteration": "Subhaanallathee sakhkhara lanaa haadhaa wa maa kunnaa lahoo muqrineen, wa innaa ilaa rabbinaa lamunqaliboon.",
+      "translation": "Glory be to Him who has subjected this to us, and we could never have it by ourselves; and surely to our Lord we will return.",
+      "translation_bn": "পবিত্র তিনি, যিনি এটিকে আমাদের অনুগত করেছেন; আমরা নিজেরা তা করতে সক্ষম ছিলাম না। আর নিশ্চয়ই আমরা আমাদের রবের কাছেই ফিরে যাব।"
+    }
+  ],
+  "mosque_enter": [
+    {
+      "title": "মসজিদে প্রবেশের দোয়া",
+      "arabic": "اللّٰهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "transliteration": "Allahumma iftah lee abwaaba rahmatik.",
+      "translation": "O Allah, open for me the doors of Your mercy.",
+      "translation_bn": "হে আল্লাহ, আমার জন্য আপনার রহমতের দরজাগুলো খুলে দিন।"
+    }
+  ],
+  "mosque_exit": [
+    {
+      "title": "মসজিদ থেকে বের হওয়ার দোয়া",
+      "arabic": "اللّٰهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْلِكَ",
+      "transliteration": "Allahumma inni as'aluka min fadlik.",
+      "translation": "O Allah, I ask You from Your bounty.",
+      "translation_bn": "হে আল্লাহ, আমি আপনার অনুগ্রহ প্রার্থনা করছি।"
+    }
+  ],
+  "general": [
+    {
+      "title": "কৃতজ্ঞতার দোয়া",
+      "arabic": "اللّٰهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+      "transliteration": "Allahumma a'inni 'ala dhikrika wa shukrika wa husni 'ibaadatika.",
+      "translation": "O Allah, help me remember You, thank You, and worship You in the best way.",
+      "translation_bn": "হে আল্লাহ, আপনাকে স্মরণ করা, কৃতজ্ঞতা আদায় করা এবং সুন্দরভাবে ইবাদত করতে আমাকে সাহায্য করুন।"
+    },
+    {
+      "title": "হেদায়াতের দোয়া",
+      "arabic": "اللّٰهُمَّ اهْدِنِي وَسَدِّدْنِي",
+      "transliteration": "Allahumma ihdini wa saddidni.",
+      "translation": "O Allah, guide me and keep me firm and correct.",
+      "translation_bn": "হে আল্লাহ, আমাকে হেদায়াত দিন এবং সঠিক পথে দৃঢ় রাখুন।"
+    },
+    {
+      "title": "ক্ষমা চাওয়ার দোয়া",
+      "arabic": "رَبِّ اغْفِرْ لِي وَتُبْ عَلَيَّ إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ",
+      "transliteration": "Rabbighfir lee wa tub 'alayya innaka antat-tawwaabur-raheem.",
+      "translation": "My Lord, forgive me and accept my repentance. Truly You are the Accepter of repentance, Most Merciful.",
+      "translation_bn": "হে আমার রব, আমাকে ক্ষমা করুন এবং আমার তাওবা কবুল করুন। নিশ্চয়ই আপনি তাওবা কবুলকারী, পরম দয়ালু।"
+    }
+  ]
+}

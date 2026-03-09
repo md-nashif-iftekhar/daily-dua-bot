@@ -1,0 +1,16 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "This project creates a Telegram chatbot that:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0"
+  }
+}
