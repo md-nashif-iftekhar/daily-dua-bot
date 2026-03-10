@@ -183,6 +183,47 @@ async def parents_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
     if update.message is not None:
         await update.message.reply_text(format_dua(item), parse_mode="Markdown")
 
+async def sneeze_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["sneeze"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def sad_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["sad"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def patience_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["patience"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def protection_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["protection"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def mosque_in_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["mosque_enter"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def mosque_out_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["mosque_exit"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
 async def random_dua_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     duas = context.bot_data["duas"]
     pool = all_duas(duas)
@@ -231,9 +272,15 @@ def main() -> None:
     application.add_handler(CommandHandler("home", home_cmd))
     application.add_handler(CommandHandler("sleep", sleep_cmd))
     application.add_handler(CommandHandler("travel", travel_cmd))
-        application.add_handler(CommandHandler("eat", eat_cmd))
+    application.add_handler(CommandHandler("eat", eat_cmd))
     application.add_handler(CommandHandler("study", study_cmd))
     application.add_handler(CommandHandler("parents", parents_cmd))
+    application.add_handler(CommandHandler("sneeze", sneeze_cmd))
+    application.add_handler(CommandHandler("sad", sad_cmd))
+    application.add_handler(CommandHandler("patience", patience_cmd))
+    application.add_handler(CommandHandler("protection", protection_cmd))
+    application.add_handler(CommandHandler("mosque_in", mosque_in_cmd))
+    application.add_handler(CommandHandler("mosque_out", mosque_out_cmd))
     application.add_handler(CommandHandler("dua", random_dua_cmd))
 
     application.job_queue.run_daily(
@@ -250,6 +297,10 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
+
 
 
 
