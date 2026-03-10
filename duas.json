@@ -260,5 +260,275 @@
                          "translation":  "Our Lord, pour upon us patience.",
                          "translation_bn":  "হে আমাদের রব, আমাদের উপর ধৈর্য বর্ষণ করুন।"
                      }
-                 ]
+                 ],
+    "bathroom_enter":  [
+                           {
+                               "title":  "Dua for Entering Bathroom",
+                               "arabic":  "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+                               "transliteration":  "Allahumma inni a\u0027udhu bika minal khubuthi wal khaba\u0027ith",
+                               "translation":  "O Allah, I seek refuge in You from male and female devils.",
+                               "translation_bn":  "হে আল্লাহ, আমি অপবিত্র শয়তান থেকে আপনার কাছে আশ্রয় চাই।"
+                           }
+                       ],
+    "bathroom_exit":  [
+                          {
+                              "title":  "Dua for Leaving Bathroom",
+                              "arabic":  "غُفْرَانَكَ",
+                              "transliteration":  "Ghufranaka",
+                              "translation":  "I seek Your forgiveness.",
+                              "translation_bn":  "আমি আপনার ক্ষমা প্রার্থনা করি।"
+                          }
+                      ],
+    "mirror":  [
+                   {
+                       "title":  "Dua When Looking in Mirror",
+                       "arabic":  "اللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِي فَحَسِّنْ خُلُقِي",
+                       "transliteration":  "Allahumma kama hassanta khalqi fahassin khuluqi",
+                       "translation":  "O Allah, just as You have made my appearance beautiful, make my character beautiful.",
+                       "translation_bn":  "হে আল্লাহ, যেমন আপনি আমার আকৃতি সুন্দর করেছেন তেমনি আমার চরিত্রও সুন্দর করুন।"
+                   }
+               ],
+    "clothes_wear":  [
+                         {
+                             "title":  "Dua When Wearing Clothes",
+                             "arabic":  "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا",
+                             "transliteration":  "Alhamdulillahilladhi kasani hadha",
+                             "translation":  "Praise be to Allah who clothed me with this.",
+                             "translation_bn":  "সমস্ত প্রশংসা আল্লাহর যিনি আমাকে এই পোশাক দিয়েছেন।"
+                         }
+                     ],
+    "clothes_remove":  [
+                           {
+                               "title":  "Dua When Removing Clothes",
+                               "arabic":  "بِسْمِ اللَّهِ",
+                               "transliteration":  "Bismillah",
+                               "translation":  "In the name of Allah.",
+                               "translation_bn":  "আল্লাহর নামে।"
+                           }
+                       ],
+    "wudu_before":  [
+                        {
+                            "title":  "Dua Before Wudu",
+                            "arabic":  "بِسْمِ اللَّهِ",
+                            "transliteration":  "Bismillah",
+                            "translation":  "In the name of Allah.",
+                            "translation_bn":  "আল্লাহর নামে।"
+                        }
+                    ],
+    "wudu_after":  [
+                       {
+                           "title":  "Dua After Wudu",
+                           "arabic":  "اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ",
+                           "transliteration":  "Allahummaj\u0027alni minat tawwabin",
+                           "translation":  "O Allah, make me among those who repent often.",
+                           "translation_bn":  "হে আল্লাহ, আমাকে তওবাকারীদের অন্তর্ভুক্ত করুন।"
+                       }
+                   ],
+    "market":  [
+                   {
+                       "title":  "Dua Before Entering Market",
+                       "arabic":  "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ",
+                       "transliteration":  "La ilaha illallahu wahdahu la sharika lah",
+                       "translation":  "None has the right to be worshipped except Allah alone.",
+                       "translation_bn":  "আল্লাহ ছাড়া কোনো উপাস্য নেই, তিনি একক।"
+                   }
+               ],
+    "rain":  [
+                 {
+                     "title":  "Dua for Rain",
+                     "arabic":  "اللَّهُمَّ صَيِّبًا نَافِعًا",
+                     "transliteration":  "Allahumma sayyiban nafi\u0027an",
+                     "translation":  "O Allah, make it beneficial rain.",
+                     "translation_bn":  "হে আল্লাহ, এই বৃষ্টি কল্যাণকর করুন।"
+                 }
+             ],
+    "rain_after":  [
+                       {
+                           "title":  "Dua After Rain",
+                           "arabic":  "مُطِرْنَا بِفَضْلِ اللَّهِ",
+                           "transliteration":  "Mutirna bifadlillah",
+                           "translation":  "We received rain by the grace of Allah.",
+                           "translation_bn":  "আমরা আল্লাহর অনুগ্রহে বৃষ্টি পেয়েছি।"
+                       }
+                   ],
+    "thunder":  [
+                    {
+                        "title":  "Dua During Thunder",
+                        "arabic":  "سُبْحَانَ الَّذِي يُسَبِّحُ الرَّعْدُ بِحَمْدِهِ",
+                        "transliteration":  "Subhanalladhi yusabbihur ra\u0027du bihamdih",
+                        "translation":  "Glory to Him whom thunder glorifies with praise.",
+                        "translation_bn":  "পবিত্র তিনি যাকে বজ্রধ্বনি প্রশংসা সহকারে মহিমান্বিত করে।"
+                    }
+                ],
+    "fear":  [
+                 {
+                     "title":  "Dua When Feeling Fear",
+                     "arabic":  "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+                     "transliteration":  "Hasbunallahu wa ni\u0027mal wakeel",
+                     "translation":  "Allah is sufficient for us and He is the best disposer of affairs.",
+                     "translation_bn":  "আল্লাহ আমাদের জন্য যথেষ্ট এবং তিনিই উত্তম কর্মবিধায়ক।"
+                 }
+             ],
+    "angry":  [
+                  {
+                      "title":  "Dua When Angry",
+                      "arabic":  "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+                      "transliteration":  "A\u0027udhu billahi minash shaytanir rajim",
+                      "translation":  "I seek refuge in Allah from the accursed Satan.",
+                      "translation_bn":  "আমি অভিশপ্ত শয়তান থেকে আল্লাহর কাছে আশ্রয় চাই।"
+                  }
+              ],
+    "evil_eye":  [
+                     {
+                         "title":  "Dua for Protection from Evil Eye",
+                         "arabic":  "اللَّهُمَّ بَارِكْ",
+                         "transliteration":  "Allahumma barik",
+                         "translation":  "O Allah, bless it.",
+                         "translation_bn":  "হে আল্লাহ, এতে বরকত দিন।"
+                     }
+                 ],
+    "good_news":  [
+                      {
+                          "title":  "Dua When Hearing Good News",
+                          "arabic":  "الْحَمْدُ لِلَّهِ",
+                          "transliteration":  "Alhamdulillah",
+                          "translation":  "All praise is for Allah.",
+                          "translation_bn":  "সমস্ত প্রশংসা আল্লাহর জন্য।"
+                      }
+                  ],
+    "debt_relief":  [
+                        {
+                            "title":  "Dua for Relief from Debt",
+                            "arabic":  "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ",
+                            "transliteration":  "Allahummakfini bihalalika an haramik",
+                            "translation":  "O Allah, suffice me with what You have allowed.",
+                            "translation_bn":  "হে আল্লাহ, আপনার হালাল দ্বারা আমাকে যথেষ্ট করুন।"
+                        }
+                    ],
+    "strength":  [
+                     {
+                         "title":  "Dua for Strength",
+                         "arabic":  "اللَّهُمَّ قَوِّنِي",
+                         "transliteration":  "Allahumma qawwinee",
+                         "translation":  "O Allah, strengthen me.",
+                         "translation_bn":  "হে আল্লাহ, আমাকে শক্তি দিন।"
+                     }
+                 ],
+    "success":  [
+                    {
+                        "title":  "Dua for Success",
+                        "arabic":  "اللَّهُمَّ يَسِّرْ لِي أَمْرِي",
+                        "transliteration":  "Allahumma yassir li amri",
+                        "translation":  "O Allah, make my affairs easy.",
+                        "translation_bn":  "হে আল্লাহ, আমার কাজ সহজ করে দিন।"
+                    }
+                ],
+    "barakah":  [
+                    {
+                        "title":  "Dua for Barakah",
+                        "arabic":  "اللَّهُمَّ بَارِكْ لَنَا",
+                        "transliteration":  "Allahumma barik lana",
+                        "translation":  "O Allah, bless for us.",
+                        "translation_bn":  "হে আল্লাহ, আমাদের জন্য বরকত দিন।"
+                    }
+                ],
+    "good_ending":  [
+                        {
+                            "title":  "Dua for Good Ending",
+                            "arabic":  "اللَّهُمَّ أَحْسِنْ عَاقِبَتَنَا",
+                            "transliteration":  "Allahumma ahsin aqibatana",
+                            "translation":  "O Allah, make our end good.",
+                            "translation_bn":  "হে আল্লাহ, আমাদের শেষ পরিণতি উত্তম করুন।"
+                        }
+                    ],
+    "new_place":  [
+                      {
+                          "title":  "Dua for Entering a New Place",
+                          "arabic":  "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا",
+                          "transliteration":  "Allahumma inni as\u0027aluka khairaha",
+                          "translation":  "O Allah, I ask You for its goodness.",
+                          "translation_bn":  "হে আল্লাহ, আমি এর কল্যাণ প্রার্থনা করি।"
+                      }
+                  ],
+    "moon":  [
+                 {
+                     "title":  "Dua When Seeing the Moon",
+                     "arabic":  "اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ",
+                     "transliteration":  "Allahumma ahillahu alayna bil amni wal iman",
+                     "translation":  "O Allah, let this moon appear with security and faith.",
+                     "translation_bn":  "হে আল্লাহ, এই চাঁদ আমাদের জন্য নিরাপত্তা ও ঈমান নিয়ে উদিত করুন।"
+                 }
+             ],
+    "fasting":  [
+                    {
+                        "title":  "Dua When Fasting",
+                        "arabic":  "اللَّهُمَّ إِنِّي لَكَ صُمْتُ",
+                        "transliteration":  "Allahumma inni laka sumtu",
+                        "translation":  "O Allah, for You I have fasted.",
+                        "translation_bn":  "হে আল্লাহ, আমি আপনার জন্য রোজা রেখেছি।"
+                    }
+                ],
+    "iftar":  [
+                  {
+                      "title":  "Dua for Breaking Fast",
+                      "arabic":  "ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ",
+                      "transliteration":  "Dhahabaz zama\u0027u wabtallatil uruqu",
+                      "translation":  "The thirst is gone and the veins are moistened.",
+                      "translation_bn":  "তৃষ্ণা দূর হয়েছে এবং শিরাগুলো সিক্ত হয়েছে।"
+                  }
+              ],
+    "laylatul_qadr":  [
+                          {
+                              "title":  "Dua for Laylatul Qadr",
+                              "arabic":  "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ",
+                              "transliteration":  "Allahumma innaka afuwwun tuhibbul afwa",
+                              "translation":  "O Allah, You are forgiving and love forgiveness.",
+                              "translation_bn":  "হে আল্লাহ, আপনি ক্ষমাশীল এবং ক্ষমা করতে ভালোবাসেন।"
+                          }
+                      ],
+    "paradise":  [
+                     {
+                         "title":  "Dua for Paradise",
+                         "arabic":  "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ",
+                         "transliteration":  "Allahumma inni as\u0027alukal jannah",
+                         "translation":  "O Allah, I ask You for Paradise.",
+                         "translation_bn":  "হে আল্লাহ, আমি আপনার কাছে জান্নাত চাই।"
+                     }
+                 ],
+    "hell":  [
+                 {
+                     "title":  "Dua for Protection from Hell",
+                     "arabic":  "اللَّهُمَّ أَجِرْنِي مِنَ النَّارِ",
+                     "transliteration":  "Allahumma ajirni minan nar",
+                     "translation":  "O Allah, protect me from the Fire.",
+                     "translation_bn":  "হে আল্লাহ, আমাকে জাহান্নাম থেকে রক্ষা করুন।"
+                 }
+             ],
+    "health":  [
+                   {
+                       "title":  "Dua for Health",
+                       "arabic":  "اللَّهُمَّ عَافِنِي",
+                       "transliteration":  "Allahumma afini",
+                       "translation":  "O Allah, grant me health.",
+                       "translation_bn":  "হে আল্লাহ, আমাকে সুস্থতা দিন।"
+                   }
+               ],
+    "rizq":  [
+                 {
+                     "title":  "Dua for Rizq",
+                     "arabic":  "اللَّهُمَّ ارْزُقْنِي رِزْقًا طَيِّبًا",
+                     "transliteration":  "Allahummarzuqni rizqan tayyiban",
+                     "translation":  "O Allah, grant me good provision.",
+                     "translation_bn":  "হে আল্লাহ, আমাকে উত্তম রিজিক দিন।"
+                 }
+             ],
+    "knowledge":  [
+                      {
+                          "title":  "Dua for Knowledge",
+                          "arabic":  "اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي",
+                          "transliteration":  "Allahumma anfa\u0027ni bima allamtani",
+                          "translation":  "O Allah, benefit me with what You taught me.",
+                          "translation_bn":  "হে আল্লাহ, আপনি যা শিখিয়েছেন তা দ্বারা আমাকে উপকৃত করুন।"
+                      }
+                  ]
 }

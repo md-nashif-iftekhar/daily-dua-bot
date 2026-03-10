@@ -224,6 +224,185 @@ async def mosque_out_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     if update.message is not None:
         await update.message.reply_text(format_dua(item), parse_mode="Markdown")
 
+async def bathroom_in_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["bathroom_enter"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def bathroom_out_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["bathroom_exit"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def mirror_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["mirror"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def clothes_on_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["clothes_wear"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def clothes_off_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["clothes_remove"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def wudu_before_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["wudu_before"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def wudu_after_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["wudu_after"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def market_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["market"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def rain_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["rain"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def rain_after_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["rain_after"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def thunder_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["thunder"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def fear_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["fear"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def angry_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["angry"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def evil_eye_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["evil_eye"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def good_news_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["good_news"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def debt_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["debt_relief"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def strength_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["strength"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def success_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["success"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def barakah_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["barakah"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def good_ending_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["good_ending"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def new_place_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["new_place"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def moon_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["moon"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def fasting_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["fasting"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def iftar_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["iftar"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def laylatul_qadr_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["laylatul_qadr"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def paradise_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["paradise"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def hell_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["hell"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def health_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["health"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def rizq_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["rizq"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def knowledge_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    item = context.bot_data["duas"]["knowledge"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
 async def random_dua_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     duas = context.bot_data["duas"]
     pool = all_duas(duas)
@@ -281,6 +460,36 @@ def main() -> None:
     application.add_handler(CommandHandler("protection", protection_cmd))
     application.add_handler(CommandHandler("mosque_in", mosque_in_cmd))
     application.add_handler(CommandHandler("mosque_out", mosque_out_cmd))
+    application.add_handler(CommandHandler("bathroom_in", bathroom_in_cmd))
+    application.add_handler(CommandHandler("bathroom_out", bathroom_out_cmd))
+    application.add_handler(CommandHandler("mirror", mirror_cmd))
+    application.add_handler(CommandHandler("clothes_on", clothes_on_cmd))
+    application.add_handler(CommandHandler("clothes_off", clothes_off_cmd))
+    application.add_handler(CommandHandler("wudu_before", wudu_before_cmd))
+    application.add_handler(CommandHandler("wudu_after", wudu_after_cmd))
+    application.add_handler(CommandHandler("market", market_cmd))
+    application.add_handler(CommandHandler("rain", rain_cmd))
+    application.add_handler(CommandHandler("rain_after", rain_after_cmd))
+    application.add_handler(CommandHandler("thunder", thunder_cmd))
+    application.add_handler(CommandHandler("fear", fear_cmd))
+    application.add_handler(CommandHandler("angry", angry_cmd))
+    application.add_handler(CommandHandler("evil_eye", evil_eye_cmd))
+    application.add_handler(CommandHandler("good_news", good_news_cmd))
+    application.add_handler(CommandHandler("debt", debt_cmd))
+    application.add_handler(CommandHandler("strength", strength_cmd))
+    application.add_handler(CommandHandler("success", success_cmd))
+    application.add_handler(CommandHandler("barakah", barakah_cmd))
+    application.add_handler(CommandHandler("good_ending", good_ending_cmd))
+    application.add_handler(CommandHandler("new_place", new_place_cmd))
+    application.add_handler(CommandHandler("moon", moon_cmd))
+    application.add_handler(CommandHandler("fasting", fasting_cmd))
+    application.add_handler(CommandHandler("iftar", iftar_cmd))
+    application.add_handler(CommandHandler("laylatul_qadr", laylatul_qadr_cmd))
+    application.add_handler(CommandHandler("paradise", paradise_cmd))
+    application.add_handler(CommandHandler("hell", hell_cmd))
+    application.add_handler(CommandHandler("health", health_cmd))
+    application.add_handler(CommandHandler("rizq", rizq_cmd))
+    application.add_handler(CommandHandler("knowledge", knowledge_cmd))
     application.add_handler(CommandHandler("dua", random_dua_cmd))
 
     application.job_queue.run_daily(
@@ -297,6 +506,9 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
 
 
 
