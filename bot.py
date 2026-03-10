@@ -112,7 +112,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "/home - বাসায় ঢোকার দোয়া\n"
             "/sleep - ঘুমানোর আগের দোয়া\n"
             "/travel - সফরের দোয়া\n"
-            "/eat - খাবার শুরুর/শেষের দোয়া\n"
+            "/eat - খাবার শুরুর/শেষের দোয়া\n/study - পড়াশোনার দোয়া\n/parents - বাবা-মায়ের দোয়া\n/study - পড়াশোনার দোয়া\n/parents - বাবা-মায়ের দোয়া\n"
             "/dua - র‍্যান্ডম দোয়া\n"
             "/help - কমান্ড তালিকা"
         )
@@ -127,7 +127,7 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             "/home - বাসায় ঢোকার দোয়া\n"
             "/sleep - ঘুমানোর আগের দোয়া\n"
             "/travel - সফরের দোয়া\n"
-            "/eat - খাবার শুরুর/শেষের দোয়া\n"
+            "/eat - খাবার শুরুর/শেষের দোয়া\n/study - পড়াশোনার দোয়া\n/parents - বাবা-মায়ের দোয়া\n/study - পড়াশোনার দোয়া\n/parents - বাবা-মায়ের দোয়া\n"
             "/dua - র‍্যান্ডম দোয়া\n"
             "/help - কমান্ড তালিকা"
         )
@@ -169,6 +169,19 @@ async def eat_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if update.message is not None:
         await update.message.reply_text(text, parse_mode="Markdown")
 
+
+async def study_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["study"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
+
+
+async def parents_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    duas = context.bot_data["duas"]
+    item = duas["parents"][0]
+    if update.message is not None:
+        await update.message.reply_text(format_dua(item), parse_mode="Markdown")
 
 async def random_dua_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     duas = context.bot_data["duas"]
@@ -218,7 +231,9 @@ def main() -> None:
     application.add_handler(CommandHandler("home", home_cmd))
     application.add_handler(CommandHandler("sleep", sleep_cmd))
     application.add_handler(CommandHandler("travel", travel_cmd))
-    application.add_handler(CommandHandler("eat", eat_cmd))
+        application.add_handler(CommandHandler("eat", eat_cmd))
+    application.add_handler(CommandHandler("study", study_cmd))
+    application.add_handler(CommandHandler("parents", parents_cmd))
     application.add_handler(CommandHandler("dua", random_dua_cmd))
 
     application.job_queue.run_daily(
@@ -235,4 +250,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
 
