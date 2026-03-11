@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+state.json
+$null
+
+# Node artifacts (if present)
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
