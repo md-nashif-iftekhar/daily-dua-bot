@@ -6,7 +6,7 @@ from datetime import time
 from pathlib import Path
 
 from dotenv import load_dotenv
-from telegram import Update
+from telegram import Update, BotCommand
 from telegram.ext import Application, CommandHandler, ContextTypes
 from zoneinfo import ZoneInfo
 
@@ -426,6 +426,57 @@ async def morning_dua_job(context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
 
+async def post_init(application: Application) -> None:
+    commands = [
+        BotCommand("start", "chat নিবন্ধন"),
+        BotCommand("help", "কমান্ড তালিকা"),
+        BotCommand("dua", "র‍্যান্ডম দোয়া"),
+        BotCommand("out", "বাইরে যাওয়ার দোয়া"),
+        BotCommand("home", "বাসায় ঢোকার দোয়া"),
+        BotCommand("sleep", "ঘুমানোর আগের দোয়া"),
+        BotCommand("travel", "সফরের দোয়া"),
+        BotCommand("eat", "খাবার শুরুর/শেষের দোয়া"),
+        BotCommand("study", "পড়াশোনার দোয়া"),
+        BotCommand("parents", "বাবা-মায়ের দোয়া"),
+        BotCommand("sneeze", "হাঁচির দোয়া"),
+        BotCommand("sad", "দুঃখের দোয়া"),
+        BotCommand("patience", "ধৈর্যের দোয়া"),
+        BotCommand("protection", "নিরাপত্তার দোয়া"),
+        BotCommand("mosque_in", "মসজিদে প্রবেশের দোয়া"),
+        BotCommand("mosque_out", "মসজিদ থেকে বের হওয়ার দোয়া"),
+        BotCommand("bathroom_in", "টয়লেটে ঢোকার দোয়া"),
+        BotCommand("bathroom_out", "টয়লেট থেকে বের হওয়ার দোয়া"),
+        BotCommand("mirror", "আয়নায় দেখার দোয়া"),
+        BotCommand("clothes_on", "পোশাক পরার দোয়া"),
+        BotCommand("clothes_off", "পোশাক খোলার দোয়া"),
+        BotCommand("wudu_before", "ওযুর আগে দোয়া"),
+        BotCommand("wudu_after", "ওযুর পরে দোয়া"),
+        BotCommand("market", "বাজারে ঢোকার দোয়া"),
+        BotCommand("rain", "বৃষ্টির দোয়া"),
+        BotCommand("rain_after", "বৃষ্টির পরে দোয়া"),
+        BotCommand("thunder", "বজ্রের দোয়া"),
+        BotCommand("fear", "ভয়ের দোয়া"),
+        BotCommand("angry", "রাগের দোয়া"),
+        BotCommand("evil_eye", "নজর লাগা থেকে রক্ষা"),
+        BotCommand("good_news", "সুসংবাদের দোয়া"),
+        BotCommand("debt", "ঋণমুক্তির দোয়া"),
+        BotCommand("strength", "শক্তির দোয়া"),
+        BotCommand("success", "সফলতার দোয়া"),
+        BotCommand("barakah", "বরকতের দোয়া"),
+        BotCommand("good_ending", "সুন্দর পরিণতির দোয়া"),
+        BotCommand("new_place", "নতুন জায়গায় দোয়া"),
+        BotCommand("moon", "চাঁদ দেখার দোয়া"),
+        BotCommand("fasting", "রোজার দোয়া"),
+        BotCommand("iftar", "ইফতারের দোয়া"),
+        BotCommand("laylatul_qadr", "লাইলাতুল কদরের দোয়া"),
+        BotCommand("paradise", "জান্নাতের দোয়া"),
+        BotCommand("hell", "জাহান্নাম থেকে রক্ষা"),
+        BotCommand("health", "সুস্থতার দোয়া"),
+        BotCommand("rizq", "রিজিকের দোয়া"),
+        BotCommand("knowledge", "জ্ঞানের দোয়া"),
+    ]
+    await application.bot.set_my_commands(commands)
+
 def main() -> None:
     if not TOKEN:
         raise RuntimeError("Missing TELEGRAM_BOT_TOKEN in .env")
@@ -442,7 +493,7 @@ def main() -> None:
 
     morning_time = morning_time.replace(tzinfo=tz)
 
-    application = Application.builder().token(TOKEN).build()
+    application = Application.builder().token(TOKEN).post_init(post_init).build()
     application.bot_data["duas"] = load_duas()
 
     application.add_handler(CommandHandler("start", start))
@@ -506,6 +557,8 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
 
 
 
